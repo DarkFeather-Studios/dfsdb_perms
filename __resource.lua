@@ -1,6 +1,8 @@
 client_script 'db_perms_cl.lua'
 
 dependency 'mysql-async'
+dependency 'dfs'
+dependency 'dfsqueue'
 
 server_scripts {
     '@mysql-async/lib/MySQL.lua',
